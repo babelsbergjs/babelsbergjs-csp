@@ -1,0 +1,29 @@
+{
+  "name": "babelsbergjs-csp",
+  "version": "0.1.0",
+  "description": "A simple constraint satisfaction problem solver for BabelsbergJS",
+  "main": "csp_ext.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "echo 'Start node-inspector in a separate terminal!' && mocha -d --debug-brk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/babelsbergjs/babelsbergjs-csp.git"
+  },
+  "keywords": [
+    "constraints",
+    "babelsberg"
+  ],
+  "author": "The Babelsberg Team",
+  "bugs": {
+    "url": "https://github.com/babelsbergjs/babelsbergjs-csp/issues"
+  },
+  "homepage": "https://github.com/babelsbergjs/babelsbergjs-csp",
+  "dependencies": {
+    "babelsbergjs-core": "^0.1.0"
+  },
+  "devDependencies": {
+    "should": "^7.0.1"
+  }
+}
